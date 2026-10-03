@@ -1,0 +1,7 @@
+short,AP@0.3,AP@0.5,R@1fp,R@4fp,R@16fp,precision,recall,tp,fp,miss,sec_per_tile,seconds,patch,dim,model,note,device,fp16,load_s,n_det,score_threshold
+dinov2-with-registers-base,0.6739,0.4712,0.6301,0.6644,0.6644,0.0977,0.8493,124,1145,22,0.12,12.4,14,768,facebook/dinov2-with-registers-base,"86M, web, register tokens",cuda,True,0.6,1269,0.1598
+dinov3-vitl16-pretrain-sat493m,0.6586,0.467,0.5548,0.5685,0.5685,0.1208,0.7603,111,808,35,0.23,23.8,16,1024,facebook/dinov3-vitl16-pretrain-sat493m,"300M, SATELLITE pretraining",cuda,True,0.7,919,0.3725
+dinov3-vitb16-pretrain-lvd1689m,0.6571,0.397,0.5411,0.5822,0.5822,0.1672,0.7808,114,568,32,0.11,11.4,16,768,facebook/dinov3-vitb16-pretrain-lvd1689m,"86M, web, patch 16",cuda,True,0.6,682,0.3383
+dinov3-vitl16-pretrain-lvd1689m,0.56,0.3306,0.5479,0.5822,0.5822,0.1443,0.7671,112,664,34,0.85,86.5,16,1024,facebook/dinov3-vitl16-pretrain-lvd1689m,"300M, web, patch 16",cuda,False,0.8,776,0.1918
+dinov2-base,0.4425,0.2371,0.3356,0.3425,0.3425,0.0319,0.5205,76,2303,70,0.14,14.3,14,768,facebook/dinov2-base,"86M, web, patch 14 - the reference",cuda,True,4.4,2379,0.1493
+dinov2-large,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,2912,146,0.29,29.1,14,1024,facebook/dinov2-large,"300M, web - watch for fp16 overflow",cuda,True,0.6,2912,0.2827

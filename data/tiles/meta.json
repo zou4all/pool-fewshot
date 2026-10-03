@@ -1,0 +1,18 @@
+{
+  "bbox": [
+    43.5135,
+    5.4582,
+    43.5165,
+    5.4657
+  ],
+  "zoom": 19,
+  "tile": 512,
+  "overlap": 128,
+  "origin_tile": [
+    270093,
+    191616
+  ],
+  "resolution_m_per_px": 0.21653001810923977,
+  "attribution": "(c) IGN - BD ORTHO(R) - Licence Ouverte / Etalab",
+  "labels": "PRE-ANNOTATION COULEUR - a corriger a la main"
+}

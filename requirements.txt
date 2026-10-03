@@ -1,0 +1,17 @@
+# Core — everything except the neural backbone runs on these three.
+numpy>=1.24
+opencv-python>=4.8
+requests>=2.31
+
+# Backbones. Install torch FIRST, matched to your CUDA version:
+#   CPU          pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   CUDA 12.1    pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   CUDA 12.8    pip install torch --index-url https://download.pytorch.org/whl/cu128
+#                (RTX 50xx / Blackwell needs cu128 — earlier builds have no
+#                 kernels for sm_120 and fail at the first forward pass)
+torch>=2.2
+transformers>=4.44
+
+# DINOv3 weights are gated on HuggingFace: accept the licence on the model
+# page, then authenticate once.
+huggingface_hub>=0.24

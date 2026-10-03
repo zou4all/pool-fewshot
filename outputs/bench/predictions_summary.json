@@ -1,0 +1,20 @@
+{
+  "model": "facebook/dinov2-with-registers-base",
+  "half": "b",
+  "n_tiles": 102,
+  "iou": 0.3,
+  "threshold": 0.1598,
+  "tp": 124,
+  "fp": 408,
+  "miss": 22,
+  "precision": 0.2331,
+  "recall": 0.8493,
+  "seconds": 13.4,
+  "support_files": [
+    "s01.jpg",
+    "s02.jpg",
+    "s03.jpg",
+    "s04.jpg",
+    "s05.jpg"
+  ]
+}

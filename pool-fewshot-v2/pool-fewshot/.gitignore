@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Generated results. Everything under outputs/ is reproducible from a command,
+# and the annotated JPEGs add tens of megabytes per run. Keep the handful of
+# images the README actually shows under docs/ instead.
+outputs/*
+!outputs/.gitkeep
+
+# WMTS tile cache — re-downloaded by `run.py download`.
+data/raw/*
+!data/raw/.gitkeep
+
+# NOT ignored, deliberately: data/support5/ and data/negatives/.
+# Both are INPUTS to the reported numbers, not outputs. Reproducing AP@0.3
+# 0.890 needs the exact 5 support crops and the exact 40 mined negatives, and
+# regenerating them requires gated DINOv3 weights and a GPU. ~200 KB total,
+# so they are tracked.
+
+# Ranked support candidates: produced by `rank_support.py`, hundreds of crops,
+# and only the 5 chosen ones matter.
+data/candidates/*
+!data/candidates/.gitkeep
+
+# OS noise
+.DS_Store
+Thumbs.db

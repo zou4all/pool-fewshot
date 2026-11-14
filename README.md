@@ -53,3 +53,7 @@ not a pool (and it works, or collapses spectacularly): **open an issue, I
 would love to hear it** ;)
 
 *No pools were harmed during this research. Several roofs were wrongly accused.*
+
+**Coming next:** pools were only the warm-up — the next step is to point the
+same method at a completely different object, with the same settings, and see
+whether "swap the five crops and it finds something else" is actually true.
